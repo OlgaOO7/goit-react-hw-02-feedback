@@ -1,0 +1,31 @@
+.feedbackOptionWrapper {
+  display: flex;
+}
+
+.feedbackTitle {
+  display: flex;
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  font-size: 18px;
+}
+
+.btnFeedbackOpt {
+  width: 100px;
+  margin: 20px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align:center;
+  color: #3b6a72;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  /* background-size: 300% 100%; */
+}
+
+.btnFeedbackOpt:hover {
+  background-color: #d8e4eb;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    transform: scale(1.08);
+}
+
